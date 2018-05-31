@@ -1,0 +1,109 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+.aboveFold{
+  height: 100vh;
+  width: 100%;
+  background-image: url("goldenears.jpg");
+  background-size:cover;
+  background-position: center;
+}
+.filter{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(0,0,0,.3);
+}
+.topBar{
+  margin: 40px;
+  display: flex;
+  justify-content: flex-end;
+}
+.navButton{
+  padding: 0;
+  margin: 0;
+  padding: 8px 20px;
+  font-family: 'Quicksand', sans-serif;
+  background-color: inherit;
+  border: none;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2em;
+  cursor: pointer;
+}
+.navButton:hover{
+  text-shadow: 0 0 20px white;
+}
+.homeTitleContainer{
+  text-align: center;
+  width: 100%;
+  flex:4;
+  display: flex;
+  vertical-align:bottom;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: auto;
+}
+.homeTitleSubContainer{
+    margin-top: auto;
+}
+.homeHeading{
+  font-size: 6em;
+  font-family: 'PT Sans', sans-serif;
+  color: white;
+  text-shadow:0 0 10px rgb(50,50,50);
+  font-weight:normal;
+  margin: 20px
+}
+.tagline{
+  margin-top: auto;
+  font-size: 2em;
+  font-family: 'PT Sans', sans-serif;
+  color: white;
+  text-shadow:0 0 10px rgb(50,50,50);
+  font-weight:normal;
+}
+.CallToAction{
+  flex:5;
+  display: flex;
+  flex-direction: column;
+}
+.buffer{
+  flex: 5
+}
+.call{
+  flex: 20;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.freeQuote{
+  max-width: 700px;
+  background-color: rgba(200,50,50,0.5);
+  margin: 0 auto;
+  padding: 0 30px 0 30px;
+  cursor: pointer;
+  line-height: 24px;
+  font-size: 2.5em;
+  text-align: center;
+}
+.freeQuote:hover{
+  background: linear-gradient(rgba(200,50,50,0.5), rgba(200,50,50,0.7));
+}
+.callNow{
+  color: white;
+  font-weight: normal !important;
+  text-shadow:0 0 10px rgb(50,50,50);
+  text-align: center;
+  font-size: 2.5em;
+}
+.belowFold{
+
+}
