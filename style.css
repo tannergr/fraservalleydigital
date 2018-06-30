@@ -13,7 +13,7 @@ body.home{
 }
 
 .contact{
-  background-color: rgba(255,255,255,.5)
+  background-color: rgba(0, 0, 0, 0.5)
 }
 body.contact{
   background-image: url("https://c1.staticflickr.com/1/522/19496309203_d7bf993de8_b.jpg");
@@ -171,6 +171,9 @@ h2{
   /* background: rgba(120, 220, 170,1); */
   background-color: rgba(0,0,0,0);
 }
+.dark.freeQuote:hover{
+  background-color: rgba(0, 0, 0, 0.597);
+}
 .callNow{
   color:rgb(200,200,200);
   font-weight: normal !important;
@@ -243,7 +246,7 @@ h2{
 }
 .footer{
   width: 100%;
-  height: 300px;
+  height: 150px;
   background-color: rgb(50,50,50);
   display: flex;
   flex-direction: column;
@@ -277,7 +280,21 @@ h2{
   align-items: center;
   justify-content: center;
   align-self: center;
-  align-content: center
+  align-content: center;
+  padding-bottom:20px;
+}
+.call2>div{
+  
+  max-width: 70%;
+}
+.home.call2{
+  background-color: rgba(0,0,0,0.7);
+}
+.home.call2:hover{
+  background-color: rgba(0, 0, 0, 0.715))
+}
+.servicepage.call2{
+  background-color: rgb(247, 246, 244);
 }
 .footerFoot{
   width: 100%;
@@ -288,7 +305,7 @@ h2{
 }
 .footerFoot>div{
   color: rgb(180,180,180);
-  border-top: 1px solid rgb(100,100,100);
+  /* border-top: 1px solid rgb(100,100,100); */
   flex:1;
   text-align: center;
   padding: 20px;
@@ -341,10 +358,14 @@ h2{
 .digitalReview>h1{
   font-size: 48px;
   margin-bottom: 0;
-
+  color:white;
+  text-shadow:0 0 10px rgb(0, 0, 0);
+  font-weight: normal;
 }
 .digitalReview>h2{
   font-size: 40px;
+  color: white;
+  text-shadow:0 0 10px rgb(0, 0, 0);
 }
 .wedo{
 
@@ -410,4 +431,8 @@ input{
 }
 #sidebar{
   display:none;
+}
+
+p.column{
+  text-align: justify
 }
