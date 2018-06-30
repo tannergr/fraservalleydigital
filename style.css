@@ -36,13 +36,13 @@ h2{
   background-position: center;
 }
 .home{
-  background-image: url("goldenears.jpg");
+  background-image: url("./images/goldenears.jpg");
 }
 .about{
-  background-image: url("campbell_valley.jpeg");
+  background-image: url("./images/campbell_valley.jpeg");
 }
 .aboveFold.services{
-  background-image: url("river.jpg");
+  background-image: url("./images/river.jpg");
 }
 .filter{
   height: 100%;
@@ -408,9 +408,6 @@ input{
 .menuIcon{
   display:none;
 }
-.menubar{
-  width: 35px;
-  height: 5px;
-  background-color: black;
-  margin: 6px 0;
+#sidebar{
+  display:none;
 }
