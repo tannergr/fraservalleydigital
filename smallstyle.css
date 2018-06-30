@@ -56,7 +56,7 @@ h2{
   background-color: rgba(0,0,0,.3);
 }
 .topBar{
-  display: flex;
+  display: none;
 }
 .logo{
   color:white;
@@ -102,10 +102,10 @@ h2{
   margin-bottom: auto;
 }
 .homeTitleSubContainer{
-    margin-top: auto;
+    margin-top: 10px;
 }
 .homeHeading{
-  font-size: 5em;
+  font-size: 2.3em;
   font-family: 'Quicksand', sans-serif;
   color: white;
   text-shadow:0 0 10px rgb(50,50,50);
@@ -115,7 +115,7 @@ h2{
 }
 .tagline{
   margin-top: auto;
-  font-size: 2em;
+  font-size: 1.3em;
   font-family: 'PT Sans', sans-serif;
   color: white;
   text-shadow:0 0 10px rgb(50,50,50);
@@ -126,9 +126,9 @@ h2{
   display: flex;
   flex-direction: column;
 }
-.buffer{
+/* .buffer{
   flex: 5
-}
+} */
 .call{
   flex: 20;
   display: flex;
@@ -139,13 +139,13 @@ h2{
   width: 100%;
 }
 .freeQuote{
-  max-width: 700px;
+  margin:20px;
   /* background-color: rgba(160, 200, 160,0.8); */
   background-color: rgba(0,150,150,0.5);
-  padding: 20px 40px;
+  padding: 10px 20px;
   cursor: pointer;
   line-height: 24px;
-  font-size: 2.5em;
+  font-size: 1.3em;
   text-align: center;
   border-radius: 3px;
   border: 2px solid  white;
@@ -176,7 +176,7 @@ h2{
   font-weight: normal !important;
   text-shadow:0 0 10px rgb(50,50,50);
   text-align: center;
-  font-size: 2.5em;
+  font-size: 1.3em;
   background-color: rgba(0,0,0,0.5);
   padding: 10 20px;
   align-self: flex-end;
@@ -406,11 +406,14 @@ input{
   /* width: 80%; */
 }
 .menuIcon{
-  display:none;
+  float:right;
+  text-align: right;
+  width:auto;
+  margin: 10px;
 }
 .menubar{
   width: 35px;
   height: 5px;
-  background-color: black;
-  margin: 6px 0;
+  background-color: white;
+  margin: 6px 6px;
 }
